@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>7.1-SNAPSHOT</version>
+    <version>7.4-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.playground</groupId>
@@ -14,7 +14,6 @@
   <name>Marketplace Package of Nuxeo API Playground</name>
 
   <properties>
-    <marketplace.playground.version>1.0-SNAPSHOT</marketplace.playground.version>
     <nuxeo.playground.version>1.0-SNAPSHOT</nuxeo.playground.version>
   </properties>
 
@@ -27,10 +26,11 @@
     <dependencies>
       <dependency>
         <groupId>org.nuxeo.marketplace.playground</groupId>
-        <artifactId>marketplace</artifactId>
-        <version>${marketplace.playground.version}</version>
+        <artifactId>marketplace-api-playground</artifactId>
+        <version>${project.version}</version>
         <type>zip</type>
       </dependency>
+      <!-- FIXME: nuxeo-api-playground should be defined in org.nuxeo:nuxeo-addons-parent -->
       <dependency>
         <groupId>org.nuxeo.ecm.platform</groupId>
         <artifactId>nuxeo-api-playground</artifactId>

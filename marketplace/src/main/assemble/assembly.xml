@@ -17,7 +17,7 @@
     </copy>
 
     <copy todir="${outdir}/marketplace/install/bundles">
-      <artifact:resolveFile key="org.nuxeo.ecm.platform:nuxeo-api-playground::jar" />
+      <artifact:file key="org.nuxeo.ecm.platform:nuxeo-api-playground" />
     </copy>
 
     <zip destfile="${outdir}/${maven.project.artifactId}-${maven.project.version}.zip"
