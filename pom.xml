@@ -13,10 +13,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>Marketplace Package of Nuxeo API Playground</name>
 
-  <properties>
-    <nuxeo.playground.version>1.0-SNAPSHOT</nuxeo.playground.version>
-  </properties>
-
   <modules>
     <module>marketplace</module>
     <module>ftest/webdriver</module>
@@ -29,12 +25,6 @@
         <artifactId>marketplace-api-playground</artifactId>
         <version>${project.version}</version>
         <type>zip</type>
-      </dependency>
-      <!-- FIXME: nuxeo-api-playground should be defined in org.nuxeo:nuxeo-addons-parent -->
-      <dependency>
-        <groupId>org.nuxeo.ecm.platform</groupId>
-        <artifactId>nuxeo-api-playground</artifactId>
-        <version>${nuxeo.playground.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
