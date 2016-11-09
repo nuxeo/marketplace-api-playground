@@ -11,7 +11,7 @@
 
   <property name="mp.install" value="file:${out.dir}/marketplace-api-playground-${maven.project.version}.zip" />
   <!-- Override default prepare-environment target to make it download your MP -->
-  <target name="prepare-environment" depends="_init,prepare-db,prepare-tomcat,prepare-jboss">
+  <target name="prepare-environment" depends="_init,prepare-db,prepare-tomcat">
     <copy todir="${out.dir}">
       <artifact:file key="org.nuxeo.marketplace.playground:marketplace-api-playground::zip" />
     </copy>

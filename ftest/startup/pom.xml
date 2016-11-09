@@ -8,9 +8,9 @@
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
-  <artifactId>marketplace-api-playground-ftest-webdriver</artifactId>
-  <name>Nuxeo API Playground functional tests with WebDriver</name>
-  <description>Nuxeo API Playground functional tests with WebDriver</description>
+  <artifactId>marketplace-api-playground-ftest-startup</artifactId>
+  <name>Nuxeo API Playground Startup tests</name>
+  <description>Nuxeo API Playground Startup tests</description>
 
   <properties>
     <some.password>setTheValueInYourSettings</some.password>
@@ -18,27 +18,8 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-server-standalone</artifactId>
-    </dependency>
-    <dependency>
       <groupId>org.nuxeo.ecm.distribution</groupId>
-      <artifactId>nuxeo-functional-tests</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.nuxeo.ecm.distribution</groupId>
-      <artifactId>nuxeo-distribution-tomcat</artifactId>
-      <classifier>nuxeo-cap</classifier>
+      <artifactId>nuxeo-server-tomcat</artifactId>
       <type>zip</type>
       <scope>test</scope>
     </dependency>
