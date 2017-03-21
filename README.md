@@ -14,10 +14,6 @@ To build and run the tests, simply start the Maven build:
 
     mvn clean install
 
-To run functional tests:
-
-    mvn clean install -Pftest
-
 ## QA
 
 [![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=master/addons_FT_nuxeo-api-playground-master)](https://qa.nuxeo.org/jenkins/job/master/job/addons_FT_nuxeo-api-playground-master/)
