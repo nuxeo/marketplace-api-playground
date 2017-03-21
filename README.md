@@ -20,7 +20,7 @@ To run functional tests:
 
 ## QA
 
-[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=addons_FT_nuxeo-api-playground-master)](https://qa.nuxeo.org/jenkins/job/addons_FT_nuxeo-api-playground-master/)
+[![Build Status](https://qa.nuxeo.org/jenkins/buildStatus/icon?job=master/addons_FT_nuxeo-api-playground-master)](https://qa.nuxeo.org/jenkins/job/master/job/addons_FT_nuxeo-api-playground-master/)
 
 ## Deploying
 
