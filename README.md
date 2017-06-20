@@ -30,7 +30,7 @@ Install [the nuxeo-api-playground Package](https://connect.nuxeo.com/nuxeo/site/
 
 ## Reporting issues
 
-https://jira.nuxeo.com/browse/NXP/component/13317
+https://jira.nuxeo.com/browse/PLAY
 
 # Licensing
 
