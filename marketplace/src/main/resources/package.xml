@@ -8,7 +8,7 @@
   <installer restart="true" />
   <uninstaller restart="true" />
   <nuxeo-validation>nuxeo_certified</nuxeo-validation>
-  <production-state>testing</production-state>
+  <production-state>production_ready</production-state>
   <supported>true</supported>
   <platforms>
     <platform>server-@DISTRIB_VERSION@</platform>
